@@ -1,0 +1,14 @@
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\bin\Debug\netcoreapp3.1\Lab4Example2.exe
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\bin\Debug\netcoreapp3.1\Lab4Example2.deps.json
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\bin\Debug\netcoreapp3.1\Lab4Example2.runtimeconfig.json
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\bin\Debug\netcoreapp3.1\Lab4Example2.runtimeconfig.dev.json
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\bin\Debug\netcoreapp3.1\Lab4Example2.dll
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\bin\Debug\netcoreapp3.1\Lab4Example2.pdb
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\obj\Debug\netcoreapp3.1\Lab4Example2.csproj.AssemblyReference.cache
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\obj\Debug\netcoreapp3.1\Lab4Example2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\obj\Debug\netcoreapp3.1\Lab4Example2.AssemblyInfoInputs.cache
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\obj\Debug\netcoreapp3.1\Lab4Example2.AssemblyInfo.cs
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\obj\Debug\netcoreapp3.1\Lab4Example2.csproj.CoreCompileInputs.cache
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\obj\Debug\netcoreapp3.1\Lab4Example2.dll
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\obj\Debug\netcoreapp3.1\Lab4Example2.pdb
+C:\Users\Asus\SystemProg\Lab4\Lab4Example2\obj\Debug\netcoreapp3.1\Lab4Example2.genruntimeconfig.cache

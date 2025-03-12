@@ -1,0 +1,10 @@
+C:\Users\Asus\SystemProg\Lab4\Lab4Example3\bin\Debug\Lab4Example3.exe.config
+C:\Users\Asus\SystemProg\Lab4\Lab4Example3\bin\Debug\Lab4Example3.exe
+C:\Users\Asus\SystemProg\Lab4\Lab4Example3\bin\Debug\Lab4Example3.pdb
+C:\Users\Asus\SystemProg\Lab4\Lab4Example3\obj\Debug\Lab4Example3.csproj.AssemblyReference.cache
+C:\Users\Asus\SystemProg\Lab4\Lab4Example3\obj\Debug\Lab4Example3.Form1.resources
+C:\Users\Asus\SystemProg\Lab4\Lab4Example3\obj\Debug\Lab4Example3.Properties.Resources.resources
+C:\Users\Asus\SystemProg\Lab4\Lab4Example3\obj\Debug\Lab4Example3.csproj.GenerateResource.cache
+C:\Users\Asus\SystemProg\Lab4\Lab4Example3\obj\Debug\Lab4Example3.csproj.CoreCompileInputs.cache
+C:\Users\Asus\SystemProg\Lab4\Lab4Example3\obj\Debug\Lab4Example3.exe
+C:\Users\Asus\SystemProg\Lab4\Lab4Example3\obj\Debug\Lab4Example3.pdb
