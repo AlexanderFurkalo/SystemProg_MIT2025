@@ -38,13 +38,19 @@ namespace Lab6
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.textBoxFolderName = new System.Windows.Forms.TextBox();
+            this.btnCreateFolder = new System.Windows.Forms.Button();
+            this.textBoxFileName = new System.Windows.Forms.TextBox();
+            this.btnCreateTextFile = new System.Windows.Forms.Button();
+            this.textBoxFileContent = new System.Windows.Forms.TextBox();
+            this.btnDeleteSelected = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DirectoriesTreeView
             // 
             this.DirectoriesTreeView.Location = new System.Drawing.Point(26, 52);
             this.DirectoriesTreeView.Name = "DirectoriesTreeView";
-            this.DirectoriesTreeView.Size = new System.Drawing.Size(258, 261);
+            this.DirectoriesTreeView.Size = new System.Drawing.Size(258, 287);
             this.DirectoriesTreeView.TabIndex = 0;
             // 
             // btnLoadDirectory
@@ -111,11 +117,71 @@ namespace Lab6
             this.columnHeader4.Text = "Created";
             this.columnHeader4.Width = 70;
             // 
+            // textBoxFolderName
+            // 
+            this.textBoxFolderName.Location = new System.Drawing.Point(456, 268);
+            this.textBoxFolderName.Name = "textBoxFolderName";
+            this.textBoxFolderName.Size = new System.Drawing.Size(124, 20);
+            this.textBoxFolderName.TabIndex = 6;
+            this.textBoxFolderName.Text = "Enter name for the folder";
+            // 
+            // btnCreateFolder
+            // 
+            this.btnCreateFolder.Location = new System.Drawing.Point(456, 317);
+            this.btnCreateFolder.Name = "btnCreateFolder";
+            this.btnCreateFolder.Size = new System.Drawing.Size(124, 22);
+            this.btnCreateFolder.TabIndex = 7;
+            this.btnCreateFolder.Text = "Create Folder";
+            this.btnCreateFolder.UseVisualStyleBackColor = true;
+            this.btnCreateFolder.Click += new System.EventHandler(this.btnCreateFolder_Click);
+            // 
+            // textBoxFileName
+            // 
+            this.textBoxFileName.Location = new System.Drawing.Point(711, 246);
+            this.textBoxFileName.Name = "textBoxFileName";
+            this.textBoxFileName.Size = new System.Drawing.Size(121, 20);
+            this.textBoxFileName.TabIndex = 8;
+            this.textBoxFileName.Text = "Enter name for the file";
+            // 
+            // btnCreateTextFile
+            // 
+            this.btnCreateTextFile.Location = new System.Drawing.Point(708, 317);
+            this.btnCreateTextFile.Name = "btnCreateTextFile";
+            this.btnCreateTextFile.Size = new System.Drawing.Size(124, 21);
+            this.btnCreateTextFile.TabIndex = 9;
+            this.btnCreateTextFile.Text = "Create Text File";
+            this.btnCreateTextFile.UseVisualStyleBackColor = true;
+            this.btnCreateTextFile.Click += new System.EventHandler(this.btnCreateTextFile_Click);
+            // 
+            // textBoxFileContent
+            // 
+            this.textBoxFileContent.Location = new System.Drawing.Point(711, 272);
+            this.textBoxFileContent.Name = "textBoxFileContent";
+            this.textBoxFileContent.Size = new System.Drawing.Size(121, 20);
+            this.textBoxFileContent.TabIndex = 10;
+            this.textBoxFileContent.Text = "Write something";
+            // 
+            // btnDeleteSelected
+            // 
+            this.btnDeleteSelected.Location = new System.Drawing.Point(941, 317);
+            this.btnDeleteSelected.Name = "btnDeleteSelected";
+            this.btnDeleteSelected.Size = new System.Drawing.Size(127, 22);
+            this.btnDeleteSelected.TabIndex = 12;
+            this.btnDeleteSelected.Text = "Delete Selected Object";
+            this.btnDeleteSelected.UseVisualStyleBackColor = true;
+            this.btnDeleteSelected.Click += new System.EventHandler(this.btnDeleteSelected_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1080, 343);
+            this.ClientSize = new System.Drawing.Size(1080, 399);
+            this.Controls.Add(this.btnDeleteSelected);
+            this.Controls.Add(this.textBoxFileContent);
+            this.Controls.Add(this.btnCreateTextFile);
+            this.Controls.Add(this.textBoxFileName);
+            this.Controls.Add(this.btnCreateFolder);
+            this.Controls.Add(this.textBoxFolderName);
             this.Controls.Add(this.listViewSearchResults);
             this.Controls.Add(this.textBoxSearchFile);
             this.Controls.Add(this.btnSearchFile);
@@ -139,6 +205,12 @@ namespace Lab6
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.TextBox textBoxFolderName;
+        private System.Windows.Forms.Button btnCreateFolder;
+        private System.Windows.Forms.TextBox textBoxFileName;
+        private System.Windows.Forms.Button btnCreateTextFile;
+        private System.Windows.Forms.TextBox textBoxFileContent;
+        private System.Windows.Forms.Button btnDeleteSelected;
     }
 }
 
